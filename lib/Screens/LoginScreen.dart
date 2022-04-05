@@ -4,6 +4,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 
 import '../Utlis/constants.dart';
+import 'package:unchatted/Widgets/ProgressWidget.dart';
 
 
 
@@ -34,7 +35,11 @@ class _LoginScreenState extends State<LoginScreen> {
                     width: 270.0,
                     height:65.0,
                     decoration: kLoginImageDecoration, 
-                  )
+                  ),
+                  Padding(
+                    padding: EdgeInsets.all(1.0),
+                    child: circularProgress(),
+                  ),
                 ]),
               )
             )
