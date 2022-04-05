@@ -3,6 +3,8 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 
+import '../constants.dart';
+
 
 
 class LoginScreen extends StatefulWidget {
@@ -15,12 +17,15 @@ class _LoginScreenState extends State<LoginScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        decoration: BoxDecoration(
-          gradient: LinearGradient(
-            begin: Alignment.topRight,
-            end: Alignment.bottomLeft,
-            colors: const [Colors.lightBlueAccent, Colors.purpleAccent], 
-          ),
+        decoration: kLoginContainerDecoration,
+        alignment: Alignment.center,
+        child: Column(
+          children: <Widget>[
+            Text(
+              "Unchatted",
+              style: TextStyle(fontSize: 82.0, color: Colors.white, FontFamily)
+            )
+          ],
         ),
       ),
       
