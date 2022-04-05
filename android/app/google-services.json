@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "866826511997",
+    "project_id": "unchatted-918ac",
+    "storage_bucket": "unchatted-918ac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:866826511997:android:358efddcd64ca80b593314",
+        "android_client_info": {
+          "package_name": "com.raphael.unchatted"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "866826511997-rrjhpk6h860iersbme4afu1pl2rnkuiq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.raphael.unchatted",
+            "certificate_hash": "b300771d3fdb10b2685ff7b1716f0c21fe7a48a8"
+          }
+        },
+        {
+          "client_id": "866826511997-kupdr4mimpnf962qpkr4air2bdui9e35.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpkFGMjIq1Z3DfjXAIPRRPoUppNBQwWL0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "866826511997-kupdr4mimpnf962qpkr4air2bdui9e35.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
