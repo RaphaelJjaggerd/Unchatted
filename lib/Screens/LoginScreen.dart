@@ -3,7 +3,7 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 
-import '../constants.dart';
+import '../Utlis/constants.dart';
 
 
 
@@ -20,10 +20,23 @@ class _LoginScreenState extends State<LoginScreen> {
         decoration: kLoginContainerDecoration,
         alignment: Alignment.center,
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.center ,
+          crossAxisAlignment: CrossAxisAlignment.center,
           children: <Widget>[
             Text(
               "Unchatted",
-              style: TextStyle(fontSize: 82.0, color: Colors.white, FontFamily)
+              style: kLoginScreenTitleTextStyle
+            ),
+            GestureDetector(
+              child: Center(
+                child: Column(children: <Widget>[
+                  Container(
+                    width: 270.0,
+                    height:65.0,
+                    decoration: kLoginImageDecoration, 
+                  )
+                ]),
+              )
             )
           ],
         ),

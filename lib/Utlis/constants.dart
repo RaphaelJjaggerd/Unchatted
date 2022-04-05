@@ -10,6 +10,20 @@ const kLoginContainerDecoration = BoxDecoration(
 );
 
 
+const kLoginScreenTitleTextStyle = TextStyle(
+  fontSize: 82.0, 
+  color: Colors.white, 
+  fontFamily: "Signatra",
+);
+
+const kLoginImageDecoration = BoxDecoration(
+  image: DecorationImage(
+    image:AssetImage("assets/images/google_signin_button.png"),
+    fit: BoxFit.cover
+  )
+);
+
+ 
 
 
 
